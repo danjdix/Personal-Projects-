@@ -3,7 +3,7 @@ import sys
 import time
 import re 
 
-API_KEY = "AIzaSyA2NIwql1L6T_dSa7xmO4iOMQCMR_mrELQ"
+API_KEY = "" # enter api key
 
 gmaps = googlemaps.Client(key=API_KEY)
 # declaring locations 
@@ -73,3 +73,4 @@ print("\n—— Today’s Trip Summary ——")
 for o, d, m in log:
     print(f"{o} → {d}: {m:.1f} mi")
 print(f"Total mileage: {total:.1f} miles")
+
