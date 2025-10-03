@@ -2,7 +2,7 @@ import os
 from datetime import datetime, date
 import googlemaps
 
-API_KEY = "AIzaSyCMlaw8Rt8-d-x1EcFYEGMORy-EMX5t1L8"
+API_KEY = ""
 gmaps   = googlemaps.Client(key=API_KEY)
 
 LOCATIONS = {
@@ -104,3 +104,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
